@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;
     public float turnSpeed;
+    public InputAction moveAction;
     
     // Start is called once before the first frame u[date
     void Start()
