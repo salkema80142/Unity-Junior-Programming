@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public InputAction moveAction;
     public Vector2 moveInput;
 
-    // Start is called once before the first frame u[date
+    // Start is called once before the first frame update
     void Start()
     {
         moveAction.Enable();
@@ -20,8 +20,8 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
 
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * moveInput.y);
 
-        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed);
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * moveInput.x);
     }
 }
