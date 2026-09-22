@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float turnSpeed;
+    public float turnSpeed = 100f;
     public InputAction moveAction;
     public Vector2 moveInput;
 
@@ -22,6 +22,6 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * moveInput.y);
 
-        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * moveInput.x);
+        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * turnSpeed * moveInput.x);
     }
 }
