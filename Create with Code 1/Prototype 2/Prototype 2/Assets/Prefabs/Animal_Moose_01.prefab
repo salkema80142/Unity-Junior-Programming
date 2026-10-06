@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f6a15e07a21a8409561b7ac7693864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 5
+  speed: 9
 --- !u!1 &8864704280543732359
 GameObject:
   m_ObjectHideFlags: 0

@@ -1007,10 +1007,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4304174090663089405, guid: f14f5a8ce77d0084f9b150323ecca794, type: 3}
-      propertyPath: speed
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 7803887552866612471, guid: f14f5a8ce77d0084f9b150323ecca794, type: 3}
       propertyPath: m_Name
       value: Animal_Moose_01
