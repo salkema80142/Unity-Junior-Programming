@@ -11,14 +11,12 @@ public class PlayerController : MonoBehaviour
     public GameObject projectilePrefab;
     public InputAction fireAction;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveAction.Enable();
         fireAction.Enable();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Keep the player in bounds
@@ -34,5 +32,11 @@ public class PlayerController : MonoBehaviour
 
         moveInput = moveAction.ReadValue<Vector2>();
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * speed);
+
+        if (fireAction.triggered)
+        {
+            // Launch a projectile from the player
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
     }
 }
