@@ -5912,6 +5912,7 @@ GameObject:
   - component: {fileID: 3122169466032001016}
   - component: {fileID: 1932684767591541457}
   - component: {fileID: 6998747445373755179}
+  - component: {fileID: 340196809526941954}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -6005,7 +6006,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f6a15e07a21a8409561b7ac7693864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 5
+  speed: 6
+--- !u!114 &340196809526941954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8148855773003996739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f6a0641ceaea84faa2d56126461104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!1 &8269172788287561981
 GameObject:
   m_ObjectHideFlags: 0
