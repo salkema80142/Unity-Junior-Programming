@@ -487,7 +487,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -700,24 +700,6 @@ MonoBehaviour:
   - {fileID: 6292110442890272434, guid: f38198658db02cb4892e4f2de5f3c48d, type: 3}
   - {fileID: 7803887552866612471, guid: f14f5a8ce77d0084f9b150323ecca794, type: 3}
   - {fileID: 8148855773003996739, guid: 8a50c60f57c702d439fbde7781a026e1, type: 3}
-  spawnAction:
-    m_Name: Spawn
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: eec383f4-3a7f-4b0c-a39f-f6a7316b3f9a
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 0b48a8a0-3902-4945-9d4a-541b395b4147
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Spawn
-      m_Flags: 0
-    m_Flags: 0
-    m_Priority: 0
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
