@@ -715,6 +715,24 @@ MonoBehaviour:
   - {fileID: 14765748}
   - {fileID: 511540774}
   - {fileID: 415555920}
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: eec383f4-3a7f-4b0c-a39f-f6a7316b3f9a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0b48a8a0-3902-4945-9d4a-541b395b4147
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Spawn
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1 &867904669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4756874860168181135, guid: e0bcdd038f24539469f2a33bad477b89, type: 3}
