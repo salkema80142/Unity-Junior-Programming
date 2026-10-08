@@ -656,6 +656,7 @@ GameObject:
   - component: {fileID: 595933181965521958}
   - component: {fileID: 2685341157649792782}
   - component: {fileID: 3362804762798222027}
+  - component: {fileID: 662557188363300281}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -737,6 +738,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f6a0641ceaea84faa2d56126461104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &662557188363300281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292110442890272434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad107d6fb67900f4fb811330ce843b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &6852866854914822444
 GameObject:
   m_ObjectHideFlags: 0
