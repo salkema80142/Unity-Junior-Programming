@@ -779,6 +779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8133158458358480673}
   - component: {fileID: 7366513904311163016}
+  - component: {fileID: 2498328691308738912}
   m_Layer: 0
   m_Name: SM_Beagle_01
   m_TagString: Untagged
@@ -906,6 +907,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000018626451, y: -0.03184109, z: 0.09069148}
     m_Extent: {x: 0.053976044, y: 0.101537995, z: 0.13445887}
   m_DirtyAABB: 0
+--- !u!65 &2498328691308738912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510889165444257444}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10795209, y: 0.20307599, z: 0.26891774}
+  m_Center: {x: -0.0000000018626451, y: 0.10153798, z: -0.0011990964}
 --- !u!1 &1642123264333158249
 GameObject:
   m_ObjectHideFlags: 0
