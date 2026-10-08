@@ -5936,6 +5936,7 @@ GameObject:
   - component: {fileID: 6998747445373755179}
   - component: {fileID: 340196809526941954}
   - component: {fileID: -4997444616679914302}
+  - component: {fileID: 8262507922878982775}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -6054,6 +6055,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad107d6fb67900f4fb811330ce843b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+--- !u!65 &8262507922878982775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8148855773003996739}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.112210274, y: 0.20211934, z: 0.2833056}
+  m_Center: {x: 0.0008308093, y: 0.1025747, z: 0.033358447}
 --- !u!1 &8269172788287561981
 GameObject:
   m_ObjectHideFlags: 0
