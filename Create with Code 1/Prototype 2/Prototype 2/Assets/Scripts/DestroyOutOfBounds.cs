@@ -7,7 +7,7 @@ public class DestroyOutOfBounds : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
