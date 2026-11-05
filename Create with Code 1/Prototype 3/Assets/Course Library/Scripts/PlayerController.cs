@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (jumpAction.triggered && isOnGround)
+        // Added !gameOver so the player cannot jump after hitting an obstacle
+        if (jumpAction.triggered && isOnGround && !gameOver)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isOnGround = false;
@@ -37,8 +38,10 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Obstacle"))
         {
+            Debug.Log("Game Over");
             gameOver = true;
-            Debug.Log("Game Over!");
+            playerAnim.SetBool("Death_b", true);
+            playerAnim.SetInteger("DeathType_int", 1);
         }
     }
 }
