@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-// Required if you want to use the specific UI Image component directly
+
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private Animator playerAnim;
 
     [Header("UI Elements")]
-    // Drag your Game Over Image or Screen GameObject into this slot in the Unity Inspector
+    
     public GameObject gameOverImage;
 
     void Start()
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         Physics.gravity *= gravityModifier;
         playerAnim = GetComponent<Animator>();
 
-        // Ensure the Game Over image is hidden when the game starts
+        // Makes the Game Over image hidden when the game starts
         if (gameOverImage != null)
         {
             gameOverImage.SetActive(false);
